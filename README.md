@@ -1,6 +1,6 @@
 # Skautská stezka
 webová aplikace pro jednoduché plnění skautské stezky
-a tom tady může přidávat také
+- a Tom tady může přidávat také
 
 ## Plánovné featury
 - patroni
