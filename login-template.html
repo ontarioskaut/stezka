@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Přihlášení | Skautská Stezka</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Webová aplikace skautské stezky">
+    <meta name="keywords" content="skaut, stezka">
+
+    <meta property="og:image" content="static/img/sharebanner.png" />
+    <meta property="og:description" content="Webová aplikace pro snadnější a organizovanější plnění skautské Stezky" />
+    <meta property="og:url" content="https://stezka-ontario.zlin6.cz" />
+    <meta property="og:title" content="Skautská Stezka" />
+
+    <link rel="icon" href="static/img/favicon.png">
+    <link href='static/css/style.css' rel='stylesheet' type='text/css'>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <script src="static/js/login.js"></script>
+    <link href='static/css/login.css' rel='stylesheet' type='text/css'>
+  </head>
+  <body class="text-center">
+    <h1 class="nadpis">Vítej ve Stezce!</h1>
+    <div class="loginbox">
+      <div class="form-signin p-4 card">
+        <img class="mb-4 mx-auto login-icon" src="static/img/icon.png" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal login-nadpis">Přihlášení</h1>
+        <input type="text" name="user" class="form-control" placeholder="Tvoje přezdívka" required autofocus>
+        <input type="password" name="password" class="form-control" placeholder="Heslo" required>
+        <span class="text-right forgot-password">Nepamatuji si heslo</span>
+        <button class="btn btn-lg btn-primary btn-block rounded-pill mt-1" type="submit">Přihlásit se</button>
+        <div class="alert alert-danger mt-3 loginerror" role="alert">Neplatné přihlašovací údaje</div>
+      </div>
+    </div>
+  </body>
+</html>
