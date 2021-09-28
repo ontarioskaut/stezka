@@ -1,5 +1,6 @@
 # Skautská stezka
 webová aplikace pro jednoduché plnění skautské stezky
+a tom tady může přidávat také
 
 ## Plánovné featury
 - patroni
@@ -8,3 +9,4 @@ webová aplikace pro jednoduché plnění skautské stezky
 - virtuální odměny (odznáčky)
 - ukazatel progressu
 - design podle ostatních skautských projektů
+
